@@ -1,0 +1,73 @@
+Enetr the Number of Process:
+6
+Process P[1]
+Arrival Time ->3
+Burst Time ->4
+Priority ->15
+
+Process P[2]
+Arrival Time ->2
+Burst Time ->4
+Priority ->7
+
+Process P[3]
+Arrival Time ->1
+Burst Time ->7
+Priority ->2
+
+Process P[4]
+Arrival Time ->5
+Burst Time ->5
+Priority ->4
+
+Process P[5]
+Arrival Time ->6
+Burst Time ->4
+Priority ->12
+
+Process P[6]
+Arrival Time ->4
+Burst Time ->5
+Priority ->9
+
+
+Queue A contains process: P[3] P[4] 
+Queue B contains process: P[2] P[6] 
+Queue C contains process: P[1] P[5] 
+
+Execution time for Queue A :10
+Execution time for Queue B :9
+Execution time for Queue C :8
+Execution time for Queue A :2
+Quantum time for each Queues will be 10
+
+|Process ID|Burst Time|Waiting Time|Turnaround Time|(RR scheduling[quantum time=4])
+P[1](4) | P[1](3) |
+   P[1]		    7		 -1		 6
+P[2](4) | P[2](1) |
+   P[2]		    5		 2		 7
+
+Average Waiting Time of Round Robin Scheduling is   :0.500000
+Average Turnaround Time of Round Robin Scheduling is:6.500000
+
+|Process ID|Burst Time|Waiting Time|Turnaround Time|(Periority scheduling)
+
+   P[1]		 4	 0		 4
+
+   P[2]		 4	 8		 12
+P[1](4) | P[2](4) |
+
+Average Waiting Time for FCFO sheduling is   :4.000000
+Average Turnaround Time for FCFO sheduling is:8.000000
+
+|Process ID|Burst Time|Waiting Time|Turnaround Time|(FCFO scheduling)
+
+   P[1]		   4		 0		 4
+
+   P[2]		   5		 0		 5
+P[1](4) | P[2](5) |
+
+Average Waiting Time for Priority  Scheduling is  :	0.000000
+Average Turnaround Time for Priority Scheduling is:	4.000000
+
+
