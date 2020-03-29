@@ -170,7 +170,7 @@ void RoundRobinMethodScheduling()
         else if(RR_ArrivalTime[a+1]<=Total) 
         {
             a++;
-        }//Queue B(Medium range of priority)
+        }
 
         else 
         {
@@ -180,7 +180,7 @@ void RoundRobinMethodScheduling()
     printf("\nAverage Waiting Time of Round Robin Scheduling is   :%f",RR_AverageWaitingTime/b); 
     printf("\nAverage Turnaround Time of Round Robin Scheduling is:%f\n\n",RR_AverageTurnAroundTime/b); 
 }
-
+//Queue B(Medium range of priority)
 void PriorityScheduling()
 {
 	
