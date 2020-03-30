@@ -155,8 +155,8 @@ int main()
 	
 	printf("Quantum time for each Queues will be 10\n\n");
 	RoundRobinMethodScheduling();
-	FirstComeFirstOutScheduling();
 	PriorityScheduling();
+	FirstComeFirstOutScheduling();
 	
 	return 0;
 }
