@@ -52,16 +52,6 @@ Average Turnaround Time of Round Robin Scheduling is:6.500000
 
 |Process ID|Burst Time|Waiting Time|Turnaround Time|(Periority scheduling)
 
-   P[1]		 4	 0		 4
-
-   P[2]		 4	 8		 12
-P[1](4) | P[2](4) |
-
-Average Waiting Time for FCFO sheduling is   :4.000000
-Average Turnaround Time for FCFO sheduling is:8.000000
-
-|Process ID|Burst Time|Waiting Time|Turnaround Time|(FCFO scheduling)
-
    P[1]		   4		 0		 4
 
    P[2]		   5		 0		 5
@@ -69,5 +59,15 @@ P[1](4) | P[2](5) |
 
 Average Waiting Time for Priority  Scheduling is  :	0.000000
 Average Turnaround Time for Priority Scheduling is:	4.000000
+
+|Process ID|Burst Time|Waiting Time|Turnaround Time|(FCFO scheduling)
+
+   P[1]		 4	 0		 4
+
+   P[2]		 4	 8		 12
+P[1](4) | P[2](4) |
+
+Average Waiting Time for FCFO sheduling is   :4.000000
+Average Turnaround Time for FCFO sheduling is:8.000000
 
 
